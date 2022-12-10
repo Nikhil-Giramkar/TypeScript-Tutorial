@@ -14,3 +14,9 @@ let myProds: string[] = []
 myProds[0] = 'watch',
 myProds[1] = 'broom'
 //myProds[3] = 6
+
+myProds.forEach(prod => prod.replace('o', 'x'))
+
+myProds.forEach(element => {
+    console.log(element)
+});
