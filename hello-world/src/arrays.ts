@@ -12,5 +12,5 @@ myPeeps[1] = 'niks'
 
 let myProds: string[] = []
 myProds[0] = 'watch',
-myProds[1] = 'broom',
+myProds[1] = 'broom'
 //myProds[3] = 6
