@@ -6,5 +6,6 @@
 
 console.log('Hello World')
 
+let age: number = 10;
 //Compile TS code as 
 //>> npx tsc index.ts
