@@ -11,3 +11,17 @@ employee.address = 'Somewhere'
 
 //We can also add readonly keyword for memn=bers which should not be changed ever. Only get, no set
 //employee.id = 2;
+
+// We can define custome types using 'type' keyword
+
+type Student = {
+    readonly id:number,
+    name: string,
+    hasPassed?: boolean
+}
+
+let myStudent: Student = {
+    id : 2,
+    name : 'Nikhil',
+    hasPassed : true
+}
